@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "snakesay"
+version = "0.0.1"
+requires-python = ">=3.10"
+authors = [
+  { name="Bruno Cabral", email="cabral.brc@gmail.com" },
+]
+license = {text = "MIT License"}
+description = "Print a snake saying arguments from command line"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+]
